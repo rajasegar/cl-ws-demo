@@ -4,7 +4,8 @@
   :license ""
   :depends-on ("clack"
                "websocket-driver"
-               "alexandria")
+               "alexandria"
+	       "cl-json"
+	       "cl-who")
   :components ((:file "app"))
-  :description ""
-  :in-order-to ((test-op (test-op "cl-tabular-test"))))
+  :description "Common Lisp Web sockets demo")
